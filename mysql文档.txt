@@ -1,0 +1,58 @@
+user 用户表
+
+	u_id 用户编号
+	email  用户邮箱（账号）
+	password 密码
+	name 姓名	
+	birthday  生日
+	gender  性别
+	address  地址
+	headimg 头像
+
+
+
+cart购物车表
+	c_id 购物车中商品唯一标识
+	c_count 商品数量
+	g_id 关联的 goods商品
+	u_id 关联用户
+
+evaluates   评价表
+
+	e.id  每条评价 
+	order_id  关联订单的id
+	evaluate   商品评价
+	e_url  评价图片
+	u_id   关联用户id
+
+goods商品表
+	g_id 商品标识
+	g_name 商品名称
+	g_smalltype  商品小类型
+	g_bigtype  商品大类型
+	g_url  商品主图
+	g_typeurl   商品可选购买样式图
+	g_url2  商品介绍附图
+	g_price   商品价格
+	g_hot   商品热度
+	g_remark  商品介绍
+
+orders  订单表
+	order_id   订单标识
+	u_id   用户关联
+	g_id 商品关联
+	date  日期
+	ordernum   订单号(随机生成不重复)
+	state     状态  （已支付 。。。）
+
+bigtype 商品大类型（摆件  软饰。。）
+
+smalltype  商品小类型（欧式  美式。。）
+
+
+。。。
+
+
+
+
+

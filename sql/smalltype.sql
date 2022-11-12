@@ -1,0 +1,14 @@
+INSERT INTO `smalltype` VALUES (1, '手机');
+INSERT INTO `smalltype` VALUES (2, '笔记本');
+INSERT INTO `smalltype` VALUES (3, '随声');
+INSERT INTO `smalltype` VALUES (4, '男装');
+INSERT INTO `smalltype` VALUES (5, '女装');
+INSERT INTO `smalltype` VALUES (6, '速食');
+INSERT INTO `smalltype` VALUES (7, '饮品');
+INSERT INTO `smalltype` VALUES (8, '辣条');
+INSERT INTO `smalltype` VALUES (9, '零食');
+INSERT INTO `smalltype` VALUES (10, '香');
+INSERT INTO `smalltype` VALUES (11, '熏');
+INSERT INTO `smalltype` VALUES (12, '彩妆');
+INSERT INTO `smalltype` VALUES (13, '护肤');
+INSERT INTO `smalltype` VALUES (14, '香水');
